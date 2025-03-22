@@ -9,7 +9,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex space-x-4">
           <img
-            src="/public/logo.jpeg"
+            src="/logo.jpeg"
             alt="Logo"
             className="h-8 rounded-full" // Adjust the size of the logo
           />
