@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  color: #fff;
+}
+body {
+  background-color: #111;
+}
+
+.transition-colors {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+.react-datepicker {
+  @apply border-gray-200;
+}
+
+.react-datepicker__header {
+  @apply bg-white;
+}
